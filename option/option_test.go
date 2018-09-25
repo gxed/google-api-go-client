@@ -20,7 +20,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/api/internal"
+	"github.com/gxed/google-api-go-client/internal"
 	"google.golang.org/grpc"
 )
 

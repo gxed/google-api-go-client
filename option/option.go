@@ -19,7 +19,7 @@ import (
 	"net/http"
 
 	"golang.org/x/oauth2"
-	"google.golang.org/api/internal"
+	"github.com/gxed/google-api-go-client/internal"
 	"google.golang.org/grpc"
 )
 

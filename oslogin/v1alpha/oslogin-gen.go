@@ -6,10 +6,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/oslogin/v1alpha"
+//   import "github.com/gxed/google-api-go-client/oslogin/v1alpha"
 //   ...
 //   osloginService, err := oslogin.New(oauthHttpClient)
-package oslogin // import "google.golang.org/api/oslogin/v1alpha"
+package oslogin
 
 import (
 	"bytes"
@@ -18,8 +18,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/gxed/google-api-go-client/gensupport"
+	googleapi "github.com/gxed/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

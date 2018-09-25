@@ -4,10 +4,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/bigquerydatatransfer/v1"
+//   import "github.com/gxed/google-api-go-client/bigquerydatatransfer/v1"
 //   ...
 //   bigquerydatatransferService, err := bigquerydatatransfer.New(oauthHttpClient)
-package bigquerydatatransfer // import "google.golang.org/api/bigquerydatatransfer/v1"
+package bigquerydatatransfer
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/gxed/google-api-go-client/gensupport"
+	googleapi "github.com/gxed/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

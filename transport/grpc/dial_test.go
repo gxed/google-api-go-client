@@ -22,7 +22,7 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
-	"google.golang.org/api/option"
+	"github.com/gxed/google-api-go-client/option"
 	"google.golang.org/grpc"
 )
 

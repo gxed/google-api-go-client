@@ -4,10 +4,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/gamesmanagement/v1management"
+//   import "github.com/gxed/google-api-go-client/gamesmanagement/v1management"
 //   ...
 //   gamesmanagementService, err := gamesmanagement.New(oauthHttpClient)
-package gamesmanagement // import "google.golang.org/api/gamesmanagement/v1management"
+package gamesmanagement
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/gxed/google-api-go-client/gensupport"
+	googleapi "github.com/gxed/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

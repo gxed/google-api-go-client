@@ -23,9 +23,9 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
-	"google.golang.org/api/googleapi/transport"
-	"google.golang.org/api/internal"
-	"google.golang.org/api/option"
+	"github.com/gxed/google-api-go-client/googleapi/transport"
+	"github.com/gxed/google-api-go-client/internal"
+	"github.com/gxed/google-api-go-client/option"
 )
 
 // NewClient returns an HTTP client for use communicating with a Google cloud

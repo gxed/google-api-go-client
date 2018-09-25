@@ -4,10 +4,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/blogger/v2"
+//   import "github.com/gxed/google-api-go-client/blogger/v2"
 //   ...
 //   bloggerService, err := blogger.New(oauthHttpClient)
-package blogger // import "google.golang.org/api/blogger/v2"
+package blogger
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/gxed/google-api-go-client/gensupport"
+	googleapi "github.com/gxed/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

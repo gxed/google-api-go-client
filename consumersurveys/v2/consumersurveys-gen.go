@@ -2,10 +2,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/consumersurveys/v2"
+//   import "github.com/gxed/google-api-go-client/consumersurveys/v2"
 //   ...
 //   consumersurveysService, err := consumersurveys.New(oauthHttpClient)
-package consumersurveys // import "google.golang.org/api/consumersurveys/v2"
+package consumersurveys
 
 import (
 	"bytes"
@@ -14,8 +14,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/gxed/google-api-go-client/gensupport"
+	googleapi "github.com/gxed/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

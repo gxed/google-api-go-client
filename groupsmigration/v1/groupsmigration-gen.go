@@ -4,10 +4,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/groupsmigration/v1"
+//   import "github.com/gxed/google-api-go-client/groupsmigration/v1"
 //   ...
 //   groupsmigrationService, err := groupsmigration.New(oauthHttpClient)
-package groupsmigration // import "google.golang.org/api/groupsmigration/v1"
+package groupsmigration
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/gxed/google-api-go-client/gensupport"
+	googleapi "github.com/gxed/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

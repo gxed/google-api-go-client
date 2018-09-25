@@ -4,10 +4,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/dataproc/v1beta1"
+//   import "github.com/gxed/google-api-go-client/dataproc/v1beta1"
 //   ...
 //   dataprocService, err := dataproc.New(oauthHttpClient)
-package dataproc // import "google.golang.org/api/dataproc/v1beta1"
+package dataproc
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/gxed/google-api-go-client/gensupport"
+	googleapi "github.com/gxed/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

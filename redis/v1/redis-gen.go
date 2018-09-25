@@ -6,10 +6,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/redis/v1"
+//   import "github.com/gxed/google-api-go-client/redis/v1"
 //   ...
 //   redisService, err := redis.New(oauthHttpClient)
-package redis // import "google.golang.org/api/redis/v1"
+package redis
 
 import (
 	"bytes"
@@ -18,8 +18,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/gxed/google-api-go-client/gensupport"
+	googleapi "github.com/gxed/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

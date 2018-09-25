@@ -6,10 +6,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/cloudkms/v1"
+//   import "github.com/gxed/google-api-go-client/cloudkms/v1"
 //   ...
 //   cloudkmsService, err := cloudkms.New(oauthHttpClient)
-package cloudkms // import "google.golang.org/api/cloudkms/v1"
+package cloudkms
 
 import (
 	"bytes"
@@ -18,8 +18,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/gxed/google-api-go-client/gensupport"
+	googleapi "github.com/gxed/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

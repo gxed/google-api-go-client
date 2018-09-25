@@ -6,10 +6,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/vision/v1p1beta1"
+//   import "github.com/gxed/google-api-go-client/vision/v1p1beta1"
 //   ...
 //   visionService, err := vision.New(oauthHttpClient)
-package vision // import "google.golang.org/api/vision/v1p1beta1"
+package vision
 
 import (
 	"bytes"
@@ -18,8 +18,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/gxed/google-api-go-client/gensupport"
+	googleapi "github.com/gxed/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

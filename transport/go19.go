@@ -19,8 +19,8 @@ package transport
 import (
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/api/internal"
-	"google.golang.org/api/option"
+	"github.com/gxed/google-api-go-client/internal"
+	"github.com/gxed/google-api-go-client/option"
 )
 
 // Creds constructs a google.Credentials from the information in the options,

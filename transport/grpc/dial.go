@@ -22,8 +22,8 @@ import (
 	"log"
 
 	"golang.org/x/net/context"
-	"google.golang.org/api/internal"
-	"google.golang.org/api/option"
+	"github.com/gxed/google-api-go-client/internal"
+	"github.com/gxed/google-api-go-client/option"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/credentials/oauth"

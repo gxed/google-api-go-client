@@ -25,7 +25,7 @@ import (
 	"strings"
 	"unicode"
 
-	"google.golang.org/api/google-api-go-generator/internal/disco"
+	"github.com/gxed/google-api-go-client/google-api-go-generator/internal/disco"
 )
 
 const (
@@ -51,8 +51,8 @@ var (
 
 	contextHTTPPkg = flag.String("ctxhttp_pkg", "golang.org/x/net/context/ctxhttp", "Go package path of the 'ctxhttp' package.")
 	contextPkg     = flag.String("context_pkg", "golang.org/x/net/context", "Go package path of the 'context' package.")
-	gensupportPkg  = flag.String("gensupport_pkg", "google.golang.org/api/gensupport", "Go package path of the 'api/gensupport' support package.")
-	googleapiPkg   = flag.String("googleapi_pkg", "google.golang.org/api/googleapi", "Go package path of the 'api/googleapi' support package.")
+	gensupportPkg  = flag.String("gensupport_pkg", "github.com/gxed/google-api-go-client/gensupport", "Go package path of the 'api/gensupport' support package.")
+	googleapiPkg   = flag.String("googleapi_pkg", "github.com/gxed/google-api-go-client/googleapi", "Go package path of the 'api/googleapi' support package.")
 
 	serviceTypes = []string{"Service", "APIService"}
 )

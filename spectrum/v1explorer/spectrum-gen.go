@@ -4,10 +4,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/spectrum/v1explorer"
+//   import "github.com/gxed/google-api-go-client/spectrum/v1explorer"
 //   ...
 //   spectrumService, err := spectrum.New(oauthHttpClient)
-package spectrum // import "google.golang.org/api/spectrum/v1explorer"
+package spectrum
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/gxed/google-api-go-client/gensupport"
+	googleapi "github.com/gxed/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

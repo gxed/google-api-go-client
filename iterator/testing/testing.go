@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"google.golang.org/api/iterator"
+	"github.com/gxed/google-api-go-client/iterator"
 )
 
 // TestIterator tests the Next method of a standard iterator. It assumes that

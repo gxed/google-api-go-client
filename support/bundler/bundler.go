@@ -29,7 +29,7 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"golang.org/x/sync/semaphore"
+	"github.com/gxed/go-sync/semaphore"
 )
 
 const (

@@ -4,10 +4,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/deploymentmanager/v2beta"
+//   import "github.com/gxed/google-api-go-client/deploymentmanager/v2beta"
 //   ...
 //   deploymentmanagerService, err := deploymentmanager.New(oauthHttpClient)
-package deploymentmanager // import "google.golang.org/api/deploymentmanager/v2beta"
+package deploymentmanager
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/gxed/google-api-go-client/gensupport"
+	googleapi "github.com/gxed/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

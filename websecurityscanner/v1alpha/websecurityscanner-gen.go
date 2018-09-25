@@ -4,10 +4,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/websecurityscanner/v1alpha"
+//   import "github.com/gxed/google-api-go-client/websecurityscanner/v1alpha"
 //   ...
 //   websecurityscannerService, err := websecurityscanner.New(oauthHttpClient)
-package websecurityscanner // import "google.golang.org/api/websecurityscanner/v1alpha"
+package websecurityscanner
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/gxed/google-api-go-client/gensupport"
+	googleapi "github.com/gxed/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

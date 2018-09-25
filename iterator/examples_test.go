@@ -25,7 +25,7 @@ import (
 	"strconv"
 
 	"golang.org/x/net/context"
-	"google.golang.org/api/iterator"
+	"github.com/gxed/google-api-go-client/iterator"
 )
 
 var (

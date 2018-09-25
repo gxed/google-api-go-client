@@ -15,7 +15,7 @@ import (
 	"strings"
 	"sync"
 
-	"google.golang.org/api/googleapi"
+	"github.com/gxed/google-api-go-client/googleapi"
 )
 
 const sniffBuffSize = 512

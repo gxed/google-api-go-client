@@ -23,9 +23,9 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"google.golang.org/api/option"
-	gtransport "google.golang.org/api/transport/grpc"
-	htransport "google.golang.org/api/transport/http"
+	"github.com/gxed/google-api-go-client/option"
+	gtransport "github.com/gxed/google-api-go-client/transport/grpc"
+	htransport "github.com/gxed/google-api-go-client/transport/http"
 )
 
 // NewHTTPClient returns an HTTP client for use communicating with a Google cloud

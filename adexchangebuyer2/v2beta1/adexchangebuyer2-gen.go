@@ -4,10 +4,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/adexchangebuyer2/v2beta1"
+//   import "github.com/gxed/google-api-go-client/adexchangebuyer2/v2beta1"
 //   ...
 //   adexchangebuyer2Service, err := adexchangebuyer2.New(oauthHttpClient)
-package adexchangebuyer2 // import "google.golang.org/api/adexchangebuyer2/v2beta1"
+package adexchangebuyer2
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/gxed/google-api-go-client/gensupport"
+	googleapi "github.com/gxed/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

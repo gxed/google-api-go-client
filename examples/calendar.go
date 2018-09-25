@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"os"
 
-	calendar "google.golang.org/api/calendar/v3"
+	calendar "github.com/gxed/google-api-go-client/calendar/v3"
 )
 
 func init() {

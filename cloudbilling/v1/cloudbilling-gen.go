@@ -4,10 +4,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/cloudbilling/v1"
+//   import "github.com/gxed/google-api-go-client/cloudbilling/v1"
 //   ...
 //   cloudbillingService, err := cloudbilling.New(oauthHttpClient)
-package cloudbilling // import "google.golang.org/api/cloudbilling/v1"
+package cloudbilling
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/gxed/google-api-go-client/gensupport"
+	googleapi "github.com/gxed/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"
